@@ -6,23 +6,27 @@ html{
     font-family: 'Overpass', sans-serif;
 }
 .header{
-    background-image: url(../img/header_background.png);
+    background-image: url(../img/background_head.png);
     background-size: cover;
     width: 100%;
 }
+.base-info img{
+text-align: center;
+}
 .wrapper{
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
 }
 .button{
     padding-bottom: 35px;
+    margin: 0;
 }
 .base-info p{
     margin: 0px;
-    width: 30%;
+    width: 60%;
     color: #e5e5e5;
-    text-align: left;
     padding: 40px 0px 32px;
+
 }
 .base-info h1{
     padding-top: 255px;
@@ -34,11 +38,21 @@ html{
     color: #8bd876;
     font-weight: 400;
 }
+.all_header_elem{
+    display: flex;
+    justify-content: space-between;
+}
 .button{
     display: flex;
     justify-content: space-between;
-    width: 22%;
-    padding: 0px 0px 313px;
+    width:60%;
+
+}
+.first h2{
+    font-size: 35px;
+}
+ .second h2{
+    font-size: 35px;
 }
 .left-button a{
     border-radius: 28px;
@@ -68,19 +82,30 @@ html{
     display: flex;
     justify-content: space-between;
     justify-content: end;
+    padding: 352px 0px 0px 0px;
     width: 60%;
 }
-.base-rosp{
-    display: flex;
-    justify-content: end;
-    width: 100%;
+.img{
+    padding-right: 150px;
+    margin-top: 230px;
+    height: 15%;
 
 }
+img{
+    padding-bottom: 165px;
+}
 .text{
-    width: 40%;
+    width: 60%;
     color: aliceblue;
     font-weight: 300;
+    padding: 16px 0px;
 }
 .second, .first h2{
     font-weight: 400;
+}
+.tour{
+    background-image: url(../img/second.png);
+}
+.tour_vstup h2{
+    color: #000000;
 }
