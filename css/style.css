@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Overpass', sans-serif;
+}
+.header{
+    background-image: url(../img/header_background.png);
+    background-size: cover;
+    width: 100%;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+.button{
+    padding-bottom: 35px;
+}
+.base-info p{
+    margin: 0px;
+    width: 30%;
+    color: #e5e5e5;
+    text-align: left;
+    padding: 40px 0px 32px;
+}
+.base-info h1{
+    padding-top: 255px;
+}
+.base-info h1,h2{
+    display: block;
+    margin: 0;
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    padding: 0px 0px 313px;
+}
+.left-button a{
+    border-radius: 28px;
+    background-color: #8bd976;
+    border: 5px solid #8bd976;
+    color: #000000;
+    font-weight: 400;
+    padding: 10px;
+    margin: 50px 0px;
+    text-align: center;    
+}
+.right-button a{
+    border-radius: 28px;
+    color: #8bd976;
+    padding: 10px;
+    border: 3px solid #8bd976;
+    font-weight: 400;
+}
+.circle{
+    display: block;
+    padding: 1px 1px;
+    border: 3px solid #8bd976;
+    border-radius: 20px;
+    width: 61%;
+}
+.base-rosp{
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+    width: 60%;
+}
+.base-rosp{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+}
+.text{
+    width: 40%;
+    color: aliceblue;
+    font-weight: 300;
+}
+.second, .first h2{
+    font-weight: 400;
+}
