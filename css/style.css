@@ -5,107 +5,465 @@
 html{
     font-family: 'Overpass', sans-serif;
 }
+body{
+    background-color: #8bd976;
+}
 .header{
     background-image: url(../img/background_head.png);
     background-size: cover;
-    width: 100%;
-}
-.base-info img{
-text-align: center;
 }
 .wrapper{
     margin: 0 auto;
-    width: 85%;
+    width:85%;
 }
-.button{
-    padding-bottom: 35px;
-    margin: 0;
+.base-info{
+    width: 25%;
+    padding-top: 50px;
 }
 .base-info p{
     margin: 0px;
-    width: 60%;
+    text-align: left;
+    font-size: 14px;
     color: #e5e5e5;
-    padding: 40px 0px 32px;
-
-}
-.base-info h1{
-    padding-top: 255px;
 }
 .base-info h1,h2{
-    display: block;
+    display: inline;
     margin: 0;
-    font-size: 79px;
+    text-align: left;
+    font-size: 59px;
     color: #8bd876;
     font-weight: 400;
 }
 .all_header_elem{
     display: flex;
     justify-content: space-between;
+
 }
 .button{
     display: flex;
     justify-content: space-between;
-    width:60%;
-
+    padding-top: 15px;
+    width: 55%;
+    font-size: 11px;
 }
 .first h2{
     font-size: 35px;
 }
- .second h2{
+.second h2{
     font-size: 35px;
 }
 .left-button a{
     border-radius: 28px;
     background-color: #8bd976;
-    border: 5px solid #8bd976;
+    border: 4px solid #8bd976;
     color: #000000;
     font-weight: 400;
-    padding: 10px;
-    margin: 50px 0px;
+    padding: 3px;
     text-align: center;    
 }
 .right-button a{
     border-radius: 28px;
     color: #8bd976;
-    padding: 10px;
+    padding: 3px;
     border: 3px solid #8bd976;
     font-weight: 400;
 }
 .circle{
     display: block;
-    padding: 1px 1px;
+    height: 3%;
+    width: 85%;
     border: 3px solid #8bd976;
-    border-radius: 20px;
-    width: 61%;
+    border-radius: 25px;
+
+}
+.img{
+    padding-top: 35px;
+    height: 50%;
+    width: 100%;
+}
+.first{
+    padding-right: 15%;
+}
+.first, 
+.second{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: left;
+}
+.first h2,
+.second h2{
+    font-size: 25px;
+    
 }
 .base-rosp{
     display: flex;
     justify-content: space-between;
     justify-content: end;
-    padding: 352px 0px 0px 0px;
-    width: 60%;
-}
-.img{
-    padding-right: 150px;
-    margin-top: 230px;
-    height: 15%;
-
-}
-img{
-    padding-bottom: 165px;
+    width: 25%;
 }
 .text{
-    width: 60%;
     color: aliceblue;
     font-weight: 300;
-    padding: 16px 0px;
+    font-size: 14px;
+    padding: 15px 0px ;
+    width: 90%;
 }
 .second, .first h2{
     font-weight: 400;
 }
-.tour{
-    background-image: url(../img/second.png);
+.img{
+    width: 300px;
+    height: 450px;
 }
-.tour_vstup h2{
+.second_ecran{
+    background-image: url(../img/real_second.png);
+}
+.second_ecran_content{
+    display: flex;
+    justify-content: space-between;
+}
+.zagolovok{
+    padding-top:150px;
+    width: 90%;
+    padding-bottom: 150px;
+    margin-right: 150px;
+}
+.zagolovok h2{
+    font-size: 29px;
     color: #000000;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Overpass";
+}
+.zagolovok p{
+    font-size: 10px;
+    color: #000000;
+    padding-top: 15px;
+    font-weight: 300;
+}
+.right_main_text{
+    padding-top: 120px;
+}
+.right_main_text h2{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Overpass";
+    text-align: left;
+}
+.right_main_text p{
+    font-size: 10px;
+    color: #000000;
+    font-weight: 300;
+}
+.line{
+    width: 100%;
+}
+.screen_three{
+    background-image: url(../img/artist_background.png);
+}
+.zagolovok_artist h2{
+    display: block;
+    text-align: center;
+    font-size: 79px;
+    color: #8bd876;
+    font-weight: 400;
+    padding-top: 50px;
+}
+.zagolovok_artist p{
+    text-align: center;
+    width: 50%;
+    padding-bottom: 100px;
+    padding-left: 300px;
+    font-size: 12px;
+    line-height: 19px;
+    color: #e5e5e5;
+    font-weight: 300;
+}
+.schedule{
+    display: flex;
+    justify-content: space-between;
+}
+figure img{
+    padding-bottom: 25px;
+}
+figcaption{
+    display: flex;
+    justify-content: space-between;
+}
+figcaption h2{
+    font-size: 25px;
+    color: #8bd876;
+    font-weight: 400;
+}
+figcaption p{
+    font-size: 14px;
+    color: #8bd976;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+.time{
+    width: 30%;
+}
+figcaption{
+    width: 89%;
+}
+.chet_screen{
+    background-image: url(../img/Background_4.png);
+}
+.ale{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.whats_new h2{
+    color: #000000;
+    font-size: 40px;
+}
+.img_chel img{
+    width: 350px;
+    height: 310px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.first_circle{
+    width: 25%;
+    border: 3px solid #000;
+    height: 15px;
+    border-radius: 15px;
+}
+.second_circle{
+    width: 25%;
+    border: 3px solid #000;
+    height: 15px;
+    border-radius: 15px;
+}
+.whats_new{
+    padding-right: 100px;
+    width: 48%;
+}
+.whats_new_info{
+    text-align: left;
+    font-size: 13px;
+    width: 38%;
+    padding: 15px 0px 15px ;
+}
+.whats_new_button{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.whats_new_button a{
+    text-decoration: none;
+    border: 3px solid #000;
+    border-radius: 17px;
+
+}
+.whats_new_button_right a{
+    color: #fff;
+    background-color: #000;
+    padding: 3px;
+}
+.whats_new_button_left a{
+    color:#000;
+    padding: 3px;
+}
+.five_screen{
+    background-image: url(../img/background_of_futer_artist.png) ;
+}
+.artist{
+    display: flex;
+    justify-content: space-between;
+}
+.futer_artist{
+    padding-top: 300px;
+}
+.futer_artist_zagolovok{
+    padding-bottom: 100px;
+    width: 65%;
+    color: #8bd876;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.future_artist_main{
+    width: 60%;
+    font-size: 11px;
+    color: #e5e5e5;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 15px;
+
+}
+.main_text p{
+    padding-bottom: 15px;
+    color: #e5e5e5;
+}
+.circle_future {
+    font-size: 14px;
+    display: inline;
+    border: 1px solid #8bd976;
+    background-color: #8bd976;
+    font-weight: bold;
+    border-radius: 15px;
+    color: #000;
+    padding: 3px;
+}
+.niznij_content{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.niznij_content h2{
+    font-size: 23px;
+}
+.niznij_content p{
+    padding-top: 15px;
+    font-size: 10px;
+    color: #e5e5e5;
+    width: 35%;
+}
+.img_of_artist{
+
+}
+.img_of_artist p{
+    width: 55%;
+    font-size: 13px;
+    color: #e5e5e5;
+    text-align: right;
+    padding-left: 160px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.img_of_artist img{
+    height: 500px;
+    width: 450px;
+}
+.chest_screen{
+    background-image: url(../img/tour.png);
+
+    block-size: cover;
+}
+.chest_screen h2,p{
+    color: #000000;
+}
+.zagolovok_of_tour{
+    width: 29%;
+    text-align: center;
+    padding-left:35%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.zagolovok_of_tour h2:first-child{
+    font-size: 30px;
+}
+.zagolovok_of_tour h2:last-child{
+    font-size: 60px;
+}
+.rozclad_of_tour h2{
+    font-size: 20px;
+}
+.rozclad_of_tour p{
+    font-size: 11px;
+    text-align: left;
+    width: 55%;
+}
+.circle_tour{
+    font-size: 12px;
+    color: #8bd976;
+    border: 1px solid #000;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 15px;
+}
+.first_a{
+    padding-bottom: 50px;
+}
+.first h2 ,p ,a{
+    padding-bottom: 15px;
+}
+.rozclad_of_tour{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.shop{
+    background-image: url(../img/Background_shop.png);
+}
+.shop_item{
+    display: flex;
+    justify-content: space-between;
+}
+.right_item{
+    padding-left: 150px;
+}
+.shop_item figure{
+    background-color: #8bd976;
+    margin-bottom: 90px;
+}
+.shop_item figcaption a{
+    text-decoration: none;
+    font-size: 11px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #8bd976;
+    padding: 2px 5px;
+    background-color:#000000;
+    text-align: center;
+}
+.shop_item figcaption{
+    padding-bottom: 25px;
+    width: 80%;
+    padding-left: 50px;
+}
+.shop_item figcaption h2{
+    color: #000000;
+
+}
+.shop_zagolovok h2{
+    padding-left: 30%;
+   
+}
+.shop_zagolovok p{
+    font-size: 10px;
+    width: 50%;
+    padding-left: 25%;
+    color: #e5e5e5;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.shop_zagolovok{
+    padding-top: 50px;
+}
+footer{
+    background-image: url(../img/footer_background.png);
+}
+.futer_menu h2{
+    color: #000000;
+    font-size: 20px;
+}
+.futer_menu{
+    padding: 50px 0px 30px ;
+}
+.futer_menu a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000000;
+    padding: 0;
+}
+.futer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.ssylka{
+    display: flex;
+    flex-direction: column;
+}
+.midle{
+    width: 40%;
+}
+.copy a{
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 50px;
 }
