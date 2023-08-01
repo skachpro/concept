@@ -39,12 +39,65 @@ body{
     justify-content: space-between;
 
 }
+
 .button{
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
     width: 55%;
     font-size: 11px;
+}
+.first h2:first-child{
+    position: relative;
+}
+.first h2:first-child::before{
+    content: " ";
+    position: absolute;
+    border: 3px solid #8bd976;
+    border-radius: 15px;
+    width: 100px;
+    height: 20px;
+    bottom: 70px;
+}
+.second h2:first-child{
+    position: relative;
+}
+.second h2:first-child::before{
+    content: " ";
+    position: absolute;
+    border: 3px solid #8bd976;
+    border-radius: 15px;
+    width: 100px;
+    height: 20px;
+    bottom: 55px;
+}
+.first .text:last-child{
+    position: relative;
+}
+.first .text:last-child:after{
+    content: " ";
+    position: absolute;
+    border: 3px solid #8bd976;
+    border-radius: 15px;
+    width: 100px;
+    height: 20px;
+    top: 90px;
+    right: 13px;
+
+}
+.second .text:last-child{
+    position: relative;
+}
+.second .text:last-child:after{
+    content: " ";
+    position: absolute;
+    border: 3px solid #8bd976;
+    border-radius: 15px;
+    width: 100px;
+    height: 20px;
+    top: 90px;
+    right: 13px;
+
 }
 .first h2{
     font-size: 35px;
@@ -86,8 +139,8 @@ body{
 }
 .first, 
 .second{
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 225px;
+    padding-bottom: 250px;
     text-align: left;
 }
 .first h2,
@@ -121,12 +174,17 @@ body{
 .second_ecran_content{
     display: flex;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.zagolovok_infa {
+    width: 35%;
+    padding-left: 250px;
 }
 .zagolovok{
     padding-top:150px;
-    width: 90%;
+    width: 45%;
     padding-bottom: 150px;
-    margin-right: 150px;
 }
 .zagolovok h2{
     font-size: 29px;
@@ -140,9 +198,11 @@ body{
     color: #000000;
     padding-top: 15px;
     font-weight: 300;
+
 }
 .right_main_text{
     padding-top: 120px;
+    width: 45%;
 }
 .right_main_text h2{
     font-size: 15px;
@@ -151,10 +211,24 @@ body{
     font-family: "Overpass";
     text-align: left;
 }
+.last_h2{
+    position: relative;
+}
+.last_h2:before{
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-image: url(../img/line.png);
+    bottom: 50px;
+}
 .right_main_text p{
     font-size: 10px;
     color: #000000;
     font-weight: 300;
+    width: 59%;
+    margin-bottom: 50px;
+
 }
 .line{
     width: 100%;
@@ -183,6 +257,7 @@ body{
 .schedule{
     display: flex;
     justify-content: space-between;
+;
 }
 figure img{
     padding-bottom: 25px;
@@ -203,10 +278,13 @@ figcaption p{
     padding-bottom: 45px;
 }
 .time{
-    width: 30%;
+    width: 23%;
+    font-size: 11px;
+    color: #e5e5e5;
+    text-align: right;
 }
 figcaption{
-    width: 89%;
+    width: 100%;
 }
 .chet_screen{
     background-image: url(../img/Background_4.png);
@@ -214,7 +292,7 @@ figcaption{
 .ale{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 .whats_new h2{
     color: #000000;
@@ -223,8 +301,8 @@ figcaption{
 .img_chel img{
     width: 350px;
     height: 310px;
-    padding-left: 150px;
-    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-bottom: 350px;
 }
 .first_circle{
     width: 25%;
@@ -253,6 +331,33 @@ figcaption{
     justify-content: space-between;
     width: 40%;
 }
+.a{
+    padding-left: 100px;
+    position: relative;
+}
+.a:before{
+    content: ' ';
+    position: absolute;
+    right: 500px;
+    top:12px;
+    width: 70px;
+    border: 3px solid #000;
+    padding: 7px;
+    border-radius: 15px;
+}
+.b{
+    position: relative;
+}
+.b:after{
+    content: ' ';
+    position: absolute;
+    left: 120px;
+    top:12px;
+    width: 100px;
+    border: 3px solid #000;
+    padding: 7px;
+    border-radius: 15px;
+}
 .whats_new_button a{
     text-decoration: none;
     border: 3px solid #000;
@@ -263,6 +368,10 @@ figcaption{
     color: #fff;
     background-color: #000;
     padding: 3px;
+}
+.whats_new_zagolovok{
+    display: flex;
+    flex-direction: column;
 }
 .whats_new_button_left a{
     color:#000;
@@ -303,7 +412,6 @@ figcaption{
     display: inline;
     border: 1px solid #8bd976;
     background-color: #8bd976;
-    font-weight: bold;
     border-radius: 15px;
     color: #000;
     padding: 3px;
@@ -314,16 +422,28 @@ figcaption{
 }
 .niznij_content h2{
     font-size: 23px;
+    padding-left: 75px;
+    position: relative;
+}
+.niznij_content h2::before{
+    content: url(../img/zvezda_future.png);
+    height: 15px;
+    width: 15px;
+    bottom: 30px;
+    right: 120px;
+    position: absolute;
+
+}
+.niznij_content img{
+    height: 35px;
 }
 .niznij_content p{
-    padding-top: 15px;
+    padding-top: 25px;
     font-size: 10px;
     color: #e5e5e5;
     width: 35%;
 }
-.img_of_artist{
 
-}
 .img_of_artist p{
     width: 55%;
     font-size: 13px;
@@ -332,10 +452,26 @@ figcaption{
     padding-left: 160px;
     padding-top: 100px;
     padding-bottom: 50px;
+    position: relative;
+}
+.img_of_artist p::after{
+    content: "";
+  
+  position: absolute;
+    background-repeat: no-repeat;
+    bottom: 3px;
+
+  width: 100px;
+  height: 100px;
+  left: 470px;
+
+  background-image: url(../img/zvezda_future.png);
+
 }
 .img_of_artist img{
-    height: 500px;
+    height: 550px;
     width: 450px;
+    padding-left: 80px;
 }
 .chest_screen{
     background-image: url(../img/tour.png);
@@ -344,6 +480,9 @@ figcaption{
 }
 .chest_screen h2,p{
     color: #000000;
+}
+.zirka img{
+    height: 30px;
 }
 .zagolovok_of_tour{
     width: 29%;
@@ -374,6 +513,7 @@ figcaption{
     text-decoration: none;
     padding: 3px;
     border-radius: 15px;
+    margin-left: 5px;
 }
 .first_a{
     padding-bottom: 50px;
@@ -403,11 +543,11 @@ figcaption{
 }
 .shop_item figcaption a{
     text-decoration: none;
-    font-size: 11px;
+    font-size: 17px;
     border: 1px solid #000;
-    border-radius: 15px;
+    border-radius: 25px;
     color: #8bd976;
-    padding: 2px 5px;
+    padding: 10px;
     background-color:#000000;
     text-align: center;
 }
